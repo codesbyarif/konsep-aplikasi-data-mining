@@ -1,24 +1,25 @@
 <?php 
 
-$x = 10;
-$x += 2;
-echo $x ."</br>";
-
-$y = 3;
-$y += 8;
-
-echo $y."</br>";
-
-$z = 4;
-$z /= 10;
-echo $z."</br>";
-
-$i = 1;
-$i %= 3;
-echo $i."</br>";
-
-$o = 2;
-$o .= 5;
-echo $o."</br>";
-
+var_dump(1<5);
+echo "</br>";
+var_dump(1>5);
+echo "</br>";
+var_dump(1<=5);
+echo "</br>";
+var_dump(1>=5);
+echo "</br>";
+var_dump(1==5);
+echo "</br>";
+var_dump(1!=5);
+echo "</br>";
+var_dump(1==="1");
+echo "</br>";
+var_dump(1 !== "2");
+echo "</br>";
+$x = 20;
+var_dump($x < 20 && $x % 2 == 0);
+echo "</br>";
+$y = 10;
+var_dump($y != 20 || $y <= 30);
+echo "</br>";
 ?>
