@@ -1,3 +1,11 @@
+<?php 
+
+    // variabel dan tipe data
+    // variabel = digunakan untuk menyimpan data
+    // Aturan variabel 'Tidak boleh diawali dengan angka,tapi boleh mengandung angka'
+    $nama = "Eka";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
